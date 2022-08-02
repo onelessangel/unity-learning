@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hit
+  - LSpinner
+  - RSpinner
+  - 1C
+  - 2C
+  - 3C
+  - 4C
+  - 5C
+  - 6C
+  - 7C
   layers:
   - Default
   - TransparentFX
