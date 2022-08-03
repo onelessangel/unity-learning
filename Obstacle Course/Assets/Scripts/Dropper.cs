@@ -15,10 +15,10 @@ public class Dropper : MonoBehaviour
                 timeToWait = 9f;
                 break;
             case "2C":
-                timeToWait = 14f;
+                timeToWait = 15f;
                 break;
             case "3C":
-                timeToWait = 11f;
+                timeToWait = 12f;
                 break;
             case "4C":
                 timeToWait = 19f;
