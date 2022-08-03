@@ -62,7 +62,7 @@ Transform:
   m_Children:
   - {fileID: 437538195444752844}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4898840942287534136
 GameObject:
@@ -107,6 +107,8 @@ GameObject:
   - component: {fileID: 831891876109676608}
   - component: {fileID: 6940211455182505287}
   - component: {fileID: 7264653603633060316}
+  - component: {fileID: 5647802644968031623}
+  - component: {fileID: 7203281671285758561}
   m_Layer: 0
   m_Name: wood_stick_01_wood_stick_01_0
   m_TagString: Untagged
@@ -179,6 +181,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5647802644968031623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299567009166524553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9037406, y: 5.3341737, z: 21.137424}
+  m_Center: {x: 0.6510375, y: 4.033e-41, z: 0.104851566}
+--- !u!114 &7203281671285758561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299567009166524553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bdfaf9d70629643969c38c973ab288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6660495673742006178
 GameObject:
   m_ObjectHideFlags: 0

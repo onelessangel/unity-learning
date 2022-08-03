@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5687585172837335110}
   - component: {fileID: 8869235644076571033}
+  - component: {fileID: 1913531708761058526}
   m_Layer: 0
   m_Name: SmallBush
   m_TagString: Untagged
@@ -46,6 +47,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7bdfaf9d70629643969c38c973ab288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1913531708761058526
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833700713254367953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 16.56056, y: 22.498531, z: 20.115164}
+  m_Center: {x: -54.960102, y: 12.387104, z: -258.80463}
 --- !u!1 &1556030253286931543
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,6 +135,8 @@ GameObject:
   - component: {fileID: 7729091713882785025}
   - component: {fileID: 3404896464485430580}
   - component: {fileID: 1507873103526058760}
+  - component: {fileID: 5674191655722914998}
+  - component: {fileID: 7480925679420995484}
   m_Layer: 0
   m_Name: Small_bush_2_phong3_0
   m_TagString: Untagged
@@ -193,6 +209,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5674191655722914998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3045552773296199058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.315154, y: 12.58269, z: 33.28745}
+  m_Center: {x: 1.4784108, y: 2.807842, z: -15.249322}
+--- !u!114 &7480925679420995484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3045552773296199058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bdfaf9d70629643969c38c973ab288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3912385190785423360
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,6 +245,8 @@ GameObject:
   - component: {fileID: 7019183530881714475}
   - component: {fileID: 141765098679680317}
   - component: {fileID: 335833127545040028}
+  - component: {fileID: 536849889607135005}
+  - component: {fileID: 693455728019663471}
   m_Layer: 0
   m_Name: Small_bush_1_phong3_0
   m_TagString: Untagged
@@ -276,3 +319,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &536849889607135005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912385190785423360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.8472395, y: 9.888041, z: 30.016275}
+  m_Center: {x: 3.26896, y: -2.5939643, z: -14.232276}
+--- !u!114 &693455728019663471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912385190785423360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bdfaf9d70629643969c38c973ab288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

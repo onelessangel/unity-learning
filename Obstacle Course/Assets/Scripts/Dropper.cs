@@ -56,8 +56,6 @@ public class Dropper : MonoBehaviour
     void Update() {
         timeElapsed = Time.time;
 
-        Debug.Log(timeElapsed);
-
         if (timeElapsed > timeToWait) {
             renderer.enabled = true;
             rigidbody.useGravity = true;
