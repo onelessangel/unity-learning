@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 5446501843360320504}
   - component: {fileID: 7978612926763741076}
   - component: {fileID: 3943281160202741444}
+  - component: {fileID: -152353342870628754}
   m_Layer: 0
   m_Name: Red_oak_acorn
   m_TagString: Untagged
@@ -391,3 +392,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToWait: 0
+--- !u!114 &-152353342870628754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5659452177041002258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bdfaf9d70629643969c38c973ab288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
