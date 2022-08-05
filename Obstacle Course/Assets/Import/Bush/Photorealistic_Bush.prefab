@@ -114,6 +114,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sketchfab_model
       objectReference: {fileID: 0}
+    - target: {fileID: 1047514250673567264, guid: 3769beb9f6970c0499a02f7070a4fffc, type: 3}
+      propertyPath: m_Radius
+      value: 9.293157
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047514250673567264, guid: 3769beb9f6970c0499a02f7070a4fffc, type: 3}
+      propertyPath: m_Center.x
+      value: -0.71999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047514250673567264, guid: 3769beb9f6970c0499a02f7070a4fffc, type: 3}
+      propertyPath: m_Center.y
+      value: -0.47106007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047514250673567264, guid: 3769beb9f6970c0499a02f7070a4fffc, type: 3}
+      propertyPath: m_Center.z
+      value: 6.8500004
+      objectReference: {fileID: 0}
     - target: {fileID: 4874895043439858538, guid: 3769beb9f6970c0499a02f7070a4fffc, type: 3}
       propertyPath: m_RootOrder
       value: -1

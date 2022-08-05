@@ -20,7 +20,7 @@ public class ObjectHit : MonoBehaviour
         // Debug.Log("You've hit a wall!");
 
         try {
-            if (other.gameObject.tag == "Player") {
+            if (other.gameObject.tag == "Player") {        
                 renderer.material.color = Color.red;
                 gameObject.tag = "Hit";
 
