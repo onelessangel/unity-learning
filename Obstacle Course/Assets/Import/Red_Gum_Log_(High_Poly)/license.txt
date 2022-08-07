@@ -1,0 +1,11 @@
+Model Information:
+* title:	Red Gum Log (High Poly)
+* source:	https://sketchfab.com/3d-models/red-gum-log-high-poly-5ee2dd6139d840729523b30868f88850
+* author:	craggle (https://sketchfab.com/craggle)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Red Gum Log (High Poly)" (https://sketchfab.com/3d-models/red-gum-log-high-poly-5ee2dd6139d840729523b30868f88850) by craggle (https://sketchfab.com/craggle) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
