@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wood Stick 09
+* source:	https://sketchfab.com/3d-models/wood-stick-09-9b5db1cddf1e4fc399f47c80b31462c2
+* author:	3dhdscan (https://sketchfab.com/3dhdscan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wood Stick 09" (https://sketchfab.com/3d-models/wood-stick-09-9b5db1cddf1e4fc399f47c80b31462c2) by 3dhdscan (https://sketchfab.com/3dhdscan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
