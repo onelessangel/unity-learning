@@ -12,7 +12,7 @@ Simple maze game, testing the player's attention, reaction speed and agility.
 
 ### **Controllers**
 
-Use WASD or the arrows to move Buppy forward, backward, left or right.
+Use WASD or the arrows to help Buppy navigate the maze.
 
 ### **Workflow**
 
