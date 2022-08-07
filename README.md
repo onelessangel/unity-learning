@@ -6,7 +6,7 @@ Simple project introducting basic Unity concepts and workflow.
 
 <!-- ## Obstacle Course -->
 
-## <blockquote class="imgur-embed-pub" lang="en" data-id="a/VUGLU6t"  ><a href="//imgur.com/a/VUGLU6t"> Obstacle Course game</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+## <blockquote class="imgur-embed-pub" lang="en" data-id="a/VUGLU6t"  ><a href="//imgur.com/a/VUGLU6t"> Obstacle Course game</a></blockquote>
 
 Simple maze game, testing the player's attention, reaction speed and agility.
 
