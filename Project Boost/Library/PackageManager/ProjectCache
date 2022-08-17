@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637955021920844706
-    m_Hash: 3449022171
+      ticks: 637956431571795129
+    m_Hash: 3299752891
   m_LockFileStatus:
     m_FilePath: C:/Users/Teodora.Stroe/Documents/GitHub/unity-learning/Project Boost/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637955023044725158
-    m_Hash: 572519201
+      ticks: 637956431571810379
+    m_Hash: 1829821595
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
