@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc26f379fad2b7b458279990e2f4542e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainEngineAudio: {fileID: 8300000, guid: d9d78ae2be4aeb641961d1660d2b28aa, type: 3}
 --- !u!82 &835032313
 AudioSource:
   m_ObjectHideFlags: 0
@@ -237,3 +238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9dfeb550e482c649902ee15c7560a33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reloadDelay: 2
+  crashAudio: {fileID: 8300000, guid: c718fb585a2db6d4a88e7f7f219fe1ea, type: 3}
+  successAudio: {fileID: 8300000, guid: 41c3a8108d9961b489916d5b11762906, type: 3}
