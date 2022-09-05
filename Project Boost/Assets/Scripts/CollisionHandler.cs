@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,22 +11,43 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] ParticleSystem crashParticles;
     [SerializeField] ParticleSystem successParticles;
 
+    [SerializeField] ParticleSystem mainBoosterParticles;
+    [SerializeField] ParticleSystem leftThrustersFrontParticles;
+    [SerializeField] ParticleSystem leftThrustersBackParticles;
+    [SerializeField] ParticleSystem rightThrustersFrontParticles;
+    [SerializeField] ParticleSystem rightThrustersBackParticles;
+
     AudioSource audioSource;
 
     bool isTransitioning = false;
+    bool collisionDisabled = false;
 
     void Start() {
         audioSource = GetComponent<AudioSource>();
     }
 
+    void Update() {
+        RespondToDebugKeys();
+    }
+
+    private void RespondToDebugKeys() {
+        if (Input.GetKey(KeyCode.L)) {
+            LoadNextLevel();
+        } else if (Input.GetKey(KeyCode.C)) {
+            collisionDisabled = !collisionDisabled;   // toggle collision
+        }
+    }
+
     void OnCollisionEnter(Collision other) {
-        if (isTransitioning) {
+        StopEngineParticles();
+
+        if (isTransitioning || collisionDisabled) {
             return;
         }
 
         switch (other.gameObject.tag) {
             case "Friendly":
-                Debug.Log("This thing is friendly");
+                Debug.Log("Ready, Set, GO!");
                 break;
             case "Finish":
                 StartSuccessSequence();
@@ -34,6 +56,16 @@ public class CollisionHandler : MonoBehaviour
                 StartCrashSequence();
                 break;
         }
+    }
+
+    private void StopEngineParticles() {
+        mainBoosterParticles.Stop();
+
+        leftThrustersFrontParticles.Stop();
+        leftThrustersBackParticles.Stop();
+
+        rightThrustersFrontParticles.Stop();
+        rightThrustersBackParticles.Stop();
     }
 
     private void StartSuccessSequence() {

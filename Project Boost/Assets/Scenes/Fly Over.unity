@@ -380,10 +380,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Launch Pad
       objectReference: {fileID: 0}
-    - target: {fileID: 6810009132768042993, guid: 3fb7b14c5c7da7a40900ca4bfbe03556, type: 3}
-      propertyPath: m_TagString
-      value: Friendly
-      objectReference: {fileID: 0}
     - target: {fileID: 7309235252140176154, guid: 3fb7b14c5c7da7a40900ca4bfbe03556, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -601,15 +597,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2021768731057608325, guid: 4b093f217edb5474aaf9f2d0e4d0d73b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.03725767
       objectReference: {fileID: 0}
     - target: {fileID: 2021768731057608325, guid: 4b093f217edb5474aaf9f2d0e4d0d73b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6383924
+      value: 1.772
       objectReference: {fileID: 0}
     - target: {fileID: 2021768731057608325, guid: 4b093f217edb5474aaf9f2d0e4d0d73b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.016
       objectReference: {fileID: 0}
     - target: {fileID: 2021768731057608325, guid: 4b093f217edb5474aaf9f2d0e4d0d73b, type: 3}
       propertyPath: m_LocalRotation.w
